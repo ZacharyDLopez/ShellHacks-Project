@@ -1,0 +1,36 @@
+.background-container{
+    background-color: #262626;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+}
+
+.header-container{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    color: white;
+    font-family:'Segoe UI', sans-serif;
+    
+}
+.question-text{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    color: white;
+}
+.question-input{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}   
+.button-container{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
