@@ -1,6 +1,6 @@
 .background-container{
     background-color: #262626;
-    height: 100vh;
+    height: 200vh;
 }
 
 .header-container{
@@ -22,11 +22,11 @@
 .nav-container{
     position: relative;
     display: flex;
-    min-width: 20vw;
+    min-width: 35vw;
     margin-top: 1.5rem;
     margin-right: auto;
     margin-left: auto;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -37,7 +37,8 @@
     min-width: 95px;
     min-height: 45px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 1.5rem;
+    font-family:'Segoe UI', sans-serif;
 }
 
 .nav-buttons:active{
@@ -46,9 +47,11 @@
 
 .banner{
     background-image: url('../../assets/banner.jpg');
-    width: 90%;
-    height: 80%;
+    width: 95%;
+    height: 80vh;
+    background-repeat: no-repeat;
     margin-top: 2rem;
+    margin-bottom: 2rem;
     margin-left: auto;
     margin-right: auto;
     display: flex;
@@ -59,8 +62,22 @@
 }
 
 .banner-text{
-    position: relative;
-    bottom: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 1rem;
+    margin-bottom: auto;
+    margin-left: .5rem;
+    margin-right: .5rem;
     color: white;
-    
+    font-family:'Segoe UI', sans-serif;
+    font-weight: bolder;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.contact-section{
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
 }
