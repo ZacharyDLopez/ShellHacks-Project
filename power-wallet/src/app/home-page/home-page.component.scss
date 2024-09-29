@@ -1,6 +1,6 @@
 .background-container{
     background-color: #262626;
-    height: 100vh;
+    height: 200vh;
 }
 
 .header-container{
@@ -43,4 +43,130 @@
 
 .backgrounf-image{
     width: 80vw;
+}
+
+.services-container{
+    margin-top: 5rem;
+    display: flex;
+}
+
+.services-title{
+    width: 100%;
+    margin-top: 1rem;
+    text-align: center;
+    color: white;
+    font-family:'Segoe UI', sans-serif;
+}
+
+.services-imgs{
+    margin-top: 3rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.financial-literacy-column{
+    display:flex;
+    flex: 0.2;
+    flex-direction: column;
+}
+
+.financial-literacy-img{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+}
+
+.financial-literacy-subheading{
+    text-align: center;
+    color: white;
+    font-family:'Segoe UI', sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+.financial-literacy-body{
+    text-align: center;
+    color: white;
+    font-family:'Segoe UI', sans-serif;
+    font-size: large;
+}
+
+.boost-credit-img{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.boost-credit-column{
+    display: flex;
+    flex: 0.2;
+    flex-direction: column;
+}
+
+.boost-credit-subheading{
+    text-align: center;
+    color: white;
+    font-family:'Segoe UI', sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+.boost-credit-body{
+    text-align: center;
+    color: white;
+    font-family:'Segoe UI', sans-serif;
+    font-size: large;
+}
+
+.master-budgeting-img{
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+}
+
+.master-budgeting-column{
+    display: flex;
+    flex: 0.2;
+    flex-direction: column;
+}
+
+.master-budgeting-subheading{
+    text-align: center;
+    color: white;
+    font-family:'Segoe UI', sans-serif;
+    font-weight: bold;
+    font-size: large;
+}
+
+.master-budgeting-body{
+    text-align: center;
+    color: white;
+    font-family:'Segoe UI', sans-serif;
+    font-size: large;
+}
+
+.service-buttons{
+    padding-top: 3rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttons{
+    color: white;
+    background-color: #262626;
+    border: 0.1rem #9a5151 solid;
+    width: 10rem;
+    height: 5rem;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.buttons:active{
+    background-color: #9a5151;
 }
